@@ -1,0 +1,178 @@
+body{
+  color: #e6e6e6;
+  font-size: 1.1em;
+  font-family: verdana, trebuchet, arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  /*linear-gradient(top, #0D0D0D, #1a1a1a, #0D0D0D) no-repeat fixed center;*/
+  background: url("../images/backgroundswatch.jpg") repeat fixed;
+}
+
+#dragonGamespace{
+	border: 2px solid #e6e6e6;
+	width: 1200px;
+	margin: auto;
+	margin-bottom: 60px;
+	padding: 40px 0 40px 0;
+	position: relative;
+}
+
+#dragonBoard p{
+	margin: 0;
+	display: inline-block;
+}
+
+#dragonBoard img{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#dragonBoard{
+	border-bottom: 2px solid #e6e6e6;
+	display: inline-block;
+	width: 1200px;
+	position: relative;
+	padding-bottom: 40px;
+}
+
+#gameBackground{
+	position: relative;
+
+}
+
+#token3Count, #token4Count, #token5Count, #token6Count, #token7Count, #token8Count, #token9Count, #token10Count, #token11Count{
+	display: inline-block;
+}
+
+#dragon3{
+	position: absolute;
+	top: 30px;
+	left: 650px;
+}
+
+#dragon4{
+	position: absolute;
+	top: 150px;
+	left: 810px;
+}
+
+#dragon5{
+	position: absolute;
+	top: 290px;
+	left: 875px;
+}
+
+#dragon6{
+	position: absolute;
+	top: 430px;
+	left: 850px;
+}
+
+#dragon7{
+	position: absolute;
+	top: 530px;
+	left: 730px;
+}
+
+#dragon8{
+	position: absolute;
+	top: 530px;
+	left: 390px;
+}
+
+#dragon9{
+	position: absolute;
+	top: 430px;
+	left: 270px;
+}
+
+#dragon10{
+	position: absolute;
+	top: 290px;
+	left: 245px;
+}
+
+#dragon11{
+	position: absolute;
+	top: 160px;
+	left: 310px;
+}
+
+#playerOneDragon, #playerTwoDragon, #playerThreeDragon, #playerFourDragon{
+	display: inline-block;
+	width: 20%;
+	margin-top: 40px;
+}
+
+#playerOneOneDragon, #playerTwoOneDragon, #playerThreeOneDragon, #playerFourOneDragon,
+#playerOneTwoDragon, #playerTwoTwoDragon, #playerThreeTwoDragon, #playerFourTwoDragon,
+#playerOneTotalDragon, #playerTwoTotalDragon, #playerThreeTotalDragon, #playerFourTotalDragon{
+	display: inline-block;
+}
+
+.totalHolder{
+	display: block;
+	margin: 10px;
+	font-weight: bold;
+}
+
+.dragonPlayerName{
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 1.3em;
+}
+
+#rollAnnounce{
+	font-size: 1.3em;
+	position: absolute;
+	top: 580px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: red;
+}
+
+#playerOneRollDragon, #playerTwoRollDragon, #playerThreeRollDragon, #playerFourRollDragon{
+	font-size: 1.2em;
+	border: 2px solid #e6e6e6;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px 0 10px 0;
+	cursor: pointer;
+	width: 80%;
+}
+
+#playerOneRollDragon:hover, #playerTwoRollDragon:hover, #playerThreeRollDragon:hover, #playerFourRollDragon:hover{
+	color: #1a1a1a;
+	background: #e6e6e6;
+}
+
+#playerNumberPopup{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(13,13,13,.95);
+	font-size: 1.4em;
+}
+
+#popupHolder{
+	margin-top: 300px;
+}
+
+#selectPlayersHeader{
+	font-weight: bold;
+}
+
+#numberPlayers2, #numberPlayers3, #numberPlayers4{
+	margin: 15px;
+	cursor: pointer;
+}
+#numberPlayers2:hover, #numberPlayers3:hover, #numberPlayers4:hover{
+	color: red;
+	text-decoration: underline;
+}
